@@ -24,6 +24,7 @@ export interface DevotionalNote {
   updatedAt: number;
   tags: string[];
   mood?: string; // E.g., 'Grato', 'Reflexivo', 'Triste'
+  userId?: string;
 }
 
 export type ViewMode = 'LIST' | 'EDITOR';
